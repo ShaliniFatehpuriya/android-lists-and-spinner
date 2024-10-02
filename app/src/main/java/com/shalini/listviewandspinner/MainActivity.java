@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(MainActivity.this, cities.get(position)+" Selected", Toast.LENGTH_SHORT).show();
             }
+            
         });
 //        ArrayAdapter<String> studentAdapter = new ArrayAdapter<>(
 //                this,
